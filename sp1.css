@@ -1,0 +1,161 @@
+*{
+	color: white;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+
+}
+body{
+	background-image: url(https://w0.peakpx.com/wallpaper/241/159/HD-wallpaper-black-stars-black-aesthetic.jpg);
+}
+.nav{
+	/*overflow:s hidden;*/
+	height:100px;
+	display: flex;
+	justify-content: space-between;
+}
+/*why*/
+a{
+  float: left;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+i{
+	margin: 2px;
+	font-size: 30px;
+}
+.cart{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.brand {
+	font-weight: bold;
+}
+.grid{
+	display: grid;
+	grid-template-columns: 800px 500px;
+	column-gap: 70px;
+}
+.main{
+	display: flex;
+	justify-content: center;
+}
+.main img{
+	border-radius: 15px;
+	margin: 10px;
+	width: 45%;
+	height: 40%;
+}
+.secondary{
+	display: flex;
+	justify-content: center;
+}
+.secondary img{
+	border-radius: 15px;
+	cursor: pointer;
+	width: 25%;
+	height: 25%;
+	padding: 10px;
+}
+.rightside{
+	display: box;
+	margin-top: 30px;
+}
+h2{
+	font-style: italic;
+	font-weight: bold;
+	margin: 15px;
+}
+h1{
+	font-weight: bold;
+	margin: 15px;
+	font-size: 30px;
+}
+/*box-shadow: horizontal offset, vertical offset, blur radius, spread radius(optional),color;*/
+p{
+	font-size: 20px;
+	text-align: left;
+	margin: 15px;
+}
+.price{
+	display: flex;
+	flex-wrap: center;
+	align-items: center;
+}
+h3{
+	font-size: 50px;
+	font-style: italic;
+	font-weight: bold;
+	margin: 5px;
+}
+h4{
+	padding: 10px 10px;
+	color: red;
+	border: 2px solid red;
+	margin: 5px; 
+}
+s{
+	font-size: 25px;
+	font-weight: bold;
+	margin: 10px;
+}
+.transaction{
+	text-align: center;
+}
+.size{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+.color{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+h1{
+	color: black;
+}
+.number{
+	margin-left: 175px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	display: flex;
+	flex-direction: row;
+	border: 2px solid black;
+	background-color: white;
+	border-radius: 5px;
+	width: 150px;
+}
+.minus{
+	padding: 0px;
+	border-right: 2px solid black;
+	width: 45px;
+	cursor: pointer;
+}
+.quantity{
+	color: black;
+	width: 60px;
+}
+.plus{
+	padding: 0px;
+	border-left: 2px solid black;
+	width: 45px;
+	cursor: pointer;
+}
+button{
+	border: 5px solid black;
+	padding: 10px;
+	color: black;
+	background-color: white;
+	text-align: center;
+	cursor: pointer;
+	font-size: 20px; 
+	width: 250px;   
+	margin-left: 110px;
+} 
+/*COINCIDE ALL WIDTH*/
